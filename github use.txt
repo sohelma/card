@@ -4,4 +4,75 @@ open cmd.card folder dokbo (C:\projects\card>) below command paste
 C:\projects\card>git init
 Initialized empty Git repository in C:/projects/card/.git/
 C:\projects\card>
+C:\projects\card>git add .
+C:\projects\card>
+C:\projects\card>git commit  -m"added"
+[master (root-commit) f11c905] added
+ 18 files changed, 88 insertions(+)
+ create mode 100644 card.html
+ create mode 100644 github use.txt
+ create mode 100644 images/1.jpg
+ create mode 100644 images/2.jpg
+ create mode 100644 images/3.jpg
+ create mode 100644 images/4.jpg
+ create mode 100644 images/DEV.jpg
+ create mode 100644 images/TL.jpg
+ create mode 100644 images/headphone.jpg
+ create mode 100644 images/logos.png
+ create mode 100644 images/t1.jpg
+ create mode 100644 images/t2.jpg
+ create mode 100644 images/t3.jpg
+ create mode 100644 images/travel1.webp
+ create mode 100644 images/travel2.jpg
+ create mode 100644 images/travel3.jpeg
+ create mode 100644 style/blogs7.css
+ create mode 100644 style/card.css
+
+C:\projects\card>
+C:\projects\card>git branch -M main
+
+C:\projects\card>
+C:\projects\card>git remote add origin https://github.com/sohelma/card.git
+
+C:\projects\card>
+C:\projects\card>git config -l  "(FOR CHECK)
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=sohelma.us@gmail.com
+user.name=sohelma
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/sohelma/card.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+C:\projects\card>
+C:\projects\card>git push -u origin main
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (22/22), 8.36 MiB | 857.00 KiB/s, done.
+Total 22 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sohelma/card.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\projects\card>
+
+
 
