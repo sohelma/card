@@ -1,0 +1,13 @@
+body{max-width: 1170px;
+background-color: lightgray;margin: 0 auto;}
+.card-section{text-align: center;}
+.card-container{display: flex;}
+.card{width: 300px;
+border: 5px solid tomato;border-radius: 10px;padding: 10px;box-shadow: 10px 10px 10px rgb(240, 90, 160);
+}
+.card:hover{background-color: skyblue;}
+.card img{width: 100%}
+.card h3{font-size: 1.25em;font-weight: 700;}
+.card button{background-color: tomato;padding: 10px 20px;font-size: 1.0em;
+border-radius: 10px;
+}

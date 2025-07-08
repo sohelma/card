@@ -1,0 +1,7 @@
+make same name repo in git hub (ex-card)
+make same folder name in local PC (ex-card)
+open cmd.card folder dokbo (C:\projects\card>) below command paste
+C:\projects\card>git init
+Initialized empty Git repository in C:/projects/card/.git/
+C:\projects\card>
+

@@ -1,0 +1,24 @@
+nav ul{display: flex;}
+nav li{list-style:none;margin-right: 15px;}
+nav li a{text-decoration: none;
+font-size: 1.4em;}
+nav li:hover{background-color: lightgray;}
+
+
+
+
+body{max-width: 1270px;background-color: bisque;
+margin: 0 auto;
+}
+.hero-container{display: flex;justify-content: center;gap: 10px;
+background-color: aqua;
+padding: 10px;font-size: 18px;
+}
+.hero-container img{height: 300px;
+border-radius: 10px;
+}
+.hero-container button{background-color: tomato;padding: 10px;
+font-size: 1em;border-radius: 5px;
+cursor:pointer;
+}
+.hero-container button:hover{background-color: rgb(243, 189, 189);}
